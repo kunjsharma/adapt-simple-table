@@ -1,0 +1,26 @@
+{
+  "name": "adapt-simple-table",
+  "version": "0.0.1",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/kunjsharma/adapt-simple-table",
+  "issues": "https://github.com/kunjsharma/adapt-simple-table/issues",
+  "displayName": "Table",
+  "component": "simple-table",
+  "description": "A simple adapt core contributed blank component",
+  "main": "/js/adapt-simple-table.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "c0c78481-76fa-4d22-a9c6-0fd9ff95d595"
+  },
+  "_source": "git://github.com/kunjsharma/adapt-simple-table.git",
+  "_target": "~0.0.1",
+  "_originalSource": "adapt-simple-table",
+  "_direct": true
+}
