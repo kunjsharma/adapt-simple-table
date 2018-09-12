@@ -1,13 +1,13 @@
 {
-  "name": "adapt-contrib-text",
-  "version": "2.0.3",
-  "framework": ">=2",
-  "homepage": "https://github.com/kunjsharma/adapt-table",
-  "issues": "https://github.com/kunjsharma/adapt-table",
+  "name": "adapt-simple-table",
+  "version": "0.0.1",
+  "framework": "3",
+  "homepage": "https://github.com/kunjsharma/adapt-simple-table",
+  "issues": "https://github.com/kunjsharma/adapt-simple-table",
   "displayName": "Text",
   "component": "text",
   "description": "A simple table component",
-  "main": "/js/adapt-table.js",
+  "main": "/js/adapt-simple-table.js",
   "keywords": [
     "adapt-plugin",
     "adapt-component"
@@ -19,8 +19,8 @@
     "tag": "v0.0.1",
     "commit": "dd2830cf3d90c8c3d94r5f1f536e533c2b8cb97c"
   },
-  "_source": "git://github.com/kunjsharma/adapt-table.git",
+  "_source": "git://github.com/kunjsharma/adapt-simple-table.git",
   "_target": ">=0.0.1",
-  "_originalSource": "adapt-table",
+  "_originalSource": "adapt-simple-table",
   "_direct": true
 }

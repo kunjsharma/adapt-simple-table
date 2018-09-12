@@ -3,21 +3,42 @@ define(function(require) {
     var ComponentView = require('coreViews/componentView');
     var Adapt = require('coreJS/adapt');
 
-    var Table = ComponentView.extend({
-
+    var Text = ComponentView.extend({
 
         preRender: function() {
-            this.$el.addClass("no-state");
-            // Checks to see if the blank should be reset on revisit
             this.checkIfResetOnRevisit();
         },
 
         postRender: function() {
             this.setReadyStatus();
-            this.$('.component-inner').on('inview', _.bind(this.inview, this));
+
+            this.setupInview();
         },
 
-        // Used to check if the blank should reset on revisit
+        setupInview: function() {
+            var selector = this.getInviewElementSelector();
+
+            if (!selector) {
+                this.setCompletionStatus();
+            } else {
+                this.model.set('inviewElementSelector', selector);
+                this.$(selector).on('inview', _.bind(this.inview, this));
+            }
+        },
+
+        /**
+         * determines which element should be used for inview logic - body, instruction or title - and returns the selector for that element
+         */
+        getInviewElementSelector: function() {
+            if(this.model.get('body')) return '.component-body';
+
+            if(this.model.get('instruction')) return '.component-instruction';
+            
+            if(this.model.get('displayTitle')) return '.component-title';
+
+            return null;
+        },
+
         checkIfResetOnRevisit: function() {
             var isResetOnRevisit = this.model.get('_isResetOnRevisit');
 
@@ -39,17 +60,25 @@ define(function(require) {
                 }
 
                 if (this._isVisibleTop && this._isVisibleBottom) {
-                    this.$('.component-inner').off('inview');
+                    this.$(this.model.get('inviewElementSelector')).off('inview');
                     this.setCompletionStatus();
                 }
-
             }
-        }
+        },
 
+        remove: function() {
+            if(this.model.has('inviewElementSelector')) {
+                this.$(this.model.get('inviewElementSelector')).off('inview');
+            }
+            
+            ComponentView.prototype.remove.call(this);
+        }
+    },
+    {
+        template: 'text'
     });
 
-    Adapt.register('blank', Table);
+    Adapt.register('text', Text);
 
-    return Table;
-
+    return Text;
 });

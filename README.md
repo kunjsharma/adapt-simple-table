@@ -1,4 +1,4 @@
-# adapt-table  
+# adapt-simple-table  
 
 # In progress: please do not use it until protype commited.
 
@@ -14,10 +14,10 @@ As one of Adapt's *[core components](https://github.com/adaptlearning/adapt_fram
 
 * If **Text** has been uninstalled from the Adapt framework, it may be reinstalled.
 With the [Adapt CLI](https://github.com/adaptlearning/adapt-cli) installed, run the following from the command line:  
-`adapt install adapt-table`
+`adapt install adapt-simple-table`
 
     Alternatively, this component can also be installed by adding the following line of code to the *adapt.json* file:  
-    `"adapt-table": "*"`  
+    `"adapt-simple-table": "*"`  
     Then running the command:  
     `adapt install`  
     (This second method will reinstall all plug-ins listed in *adapt.json*.)  
