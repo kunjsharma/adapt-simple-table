@@ -3,6 +3,16 @@
   "$schema": "http://json-schema.org/draft-04/schema",
   "id": "http://jsonschema.net",
   "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
   "properties":{
     "_supportedLayout": {
       "type": "string",
@@ -10,6 +20,15 @@
       "enum": ["full-width", "half-width", "both"],
       "default": "both",
       "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text",
+      "translatable": true
     }
   }
 }
