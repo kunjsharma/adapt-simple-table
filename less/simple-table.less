@@ -1,8 +1,17 @@
 .simple-table-component {
 	.simple-table-table {
-		border: 1px @black solid;
+		border: 1px @primary-color solid;
 		td {
-			border: 1px @black solid;
+			border: 1px @primary-color solid;
+			padding: @item-margin;
+		}
+		.simple-table-cell {
+
+		}
+		.simple-table-header {
+			background-color: @primary-color;
+			color: @primary-color-inverted;
+			font-weight: bold;
 		}
 	}
 }

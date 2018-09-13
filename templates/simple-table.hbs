@@ -2,11 +2,19 @@
     {{> component this}}
     <table class="simple-table-table">
     {{#each _items}}
-    	<tr>
-    		{{#each _cells}}
-   				<td>{{text}}</td>
-   			{{/each}}
-   		</tr>
+		{{#if _header}}
+			<tr>
+			{{#each _header}}
+				<td class="simple-table-header">{{text}}</td>
+			{{/each}}
+			</tr>
+		{{else}}
+			<tr>
+			{{#each _cells}}
+				<td class="simple-table-cell">{{text}}</td>
+			{{/each}}
+			</tr>
+		{{/if}}
     {{/each}}
     </table>
 </div>
