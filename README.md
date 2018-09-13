@@ -1,6 +1,5 @@
 # adapt-simple-table  
 
-# In progress: please do not use it until protype commited.
 
 **SimpleTable** is an extended text comopnent a *presentation component*.
 
