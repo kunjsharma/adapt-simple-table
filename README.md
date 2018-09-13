@@ -3,7 +3,7 @@
 
 **SimpleTable** is an extended text comopnent a *presentation component*.
 
-<img src="https://github.com/kunjsharma/adapt-simple-table/sample/adapt-simple-table.png" alt="sample table component" width="50%">
+<img src="sample/adapt-simple-table.png" alt="sample table component" align="right" width="50%">
 
 **SimpleTable**'s simple purpose is to present text along with table. The text inside table may include HTML.
 
