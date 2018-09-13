@@ -16,19 +16,58 @@
   "properties":{
     "_supportedLayout": {
       "type": "string",
-      "required": true,
       "enum": ["full-width", "half-width", "both"],
       "default": "both",
       "editorOnly": true
     },
     "instruction": {
       "type": "string",
-      "required": false,
       "default": "",
       "inputType": "Text",
       "validators": [],
       "help": "This is the instruction text",
       "translatable": true
+    },
+    "_items": {
+      "type": "array",
+      "title": "Table cells",
+      "items": {
+        "type": "object",
+        "properties":{
+          "_header": {
+            "type": "array",
+            "default": "",
+            "title": "Table header",
+            "properties":{
+              "text": {
+                "type": "string",
+                "default": "",
+                "title": "Cell text",
+                "inputType": "TextArea",
+                "validators": [],
+                "help": "",
+                "translatable": true
+              }
+            }
+          },
+          "_cells": {
+            "type": "array",
+            "default": "",
+            "title": "Table cell",
+            "properties":{
+              "text": {
+                "type": "string",
+                "default": "",
+                "title": "Cell text",
+                "inputType": "TextArea",
+                "validators": [],
+                "help": "",
+                "translatable": true
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
