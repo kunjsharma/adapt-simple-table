@@ -1,12 +1,33 @@
 {
-    "_id":"c-05",
-    "_parentId":"b-05",
-    "_type":"component",
-    "_component":"simple-table",
-    "_classes":"",
-    "_layout":"left",
-    "title":"Our first look at a component",
-    "displayTitle":"Our first look at a component",
-    "body":"This component you're reading is a table component. All components take this form of a title and body. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
-    "instruction":""
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "simple-table",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Introduction",
+    "displayTitle": "",
+    "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+    "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+    "_items": [
+        {
+            "_cells": [{
+                "text": "Adapt allows you to combine text and graphic components to create rich and varied learning experiences."
+            },
+            {
+                "text": "The narrative component lets you scroll through a series of images each with some accompanying text."
+            }
+        ]},
+        {
+            "_cells": [{
+                "text": "The text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics."
+            },
+            {
+                "text": "You can add interactivity to an image by using the hot graphic."
+            }
+        ]}
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
 }
