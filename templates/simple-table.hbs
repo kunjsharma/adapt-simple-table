@@ -1,3 +1,12 @@
-<div class="text-inner component-inner" role="region" aria-label="{{_globals._components._text.ariaRegion}}">
+<div class="simple-table-inner component-inner" role="region" aria-label="{{_globals._components._simple-table.ariaRegion}}">
     {{> component this}}
+    <table class="simple-table-table">
+    {{#each _items}}
+    	<tr>
+    		{{#each _cells}}
+   				<td>{{text}}</td>
+   			{{/each}}
+   		</tr>
+    {{/each}}
+    </table>
 </div>

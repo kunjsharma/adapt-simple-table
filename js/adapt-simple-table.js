@@ -3,7 +3,7 @@ define(function(require) {
     var ComponentView = require('coreViews/componentView');
     var Adapt = require('coreJS/adapt');
 
-    var Text = ComponentView.extend({
+    var SimpleTable = ComponentView.extend({
 
         preRender: function() {
             this.checkIfResetOnRevisit();
@@ -75,10 +75,10 @@ define(function(require) {
         }
     },
     {
-        template: 'text'
+        template: 'simple-table'
     });
 
-    Adapt.register('text', Text);
+    Adapt.register('simple-table', SimpleTable);
 
-    return Text;
+    return SimpleTable;
 });

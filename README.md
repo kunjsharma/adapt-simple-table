@@ -2,37 +2,19 @@
 
 # In progress: please do not use it until protype commited.
 
-**Text** is a *presentation component* bundled with the [Adapt framework](https://github.com/adaptlearning/adapt_framework).  
+**SimpleTable** is an extended text comopnent a *presentation component*.
 
-<img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/text01.png" alt="sample text component">
+<img src="https://github.com/kunjsharma/adapt-simple-table/sample/adapt-simple-table.png" alt="sample table component" width="50%">
 
-**Text**'s simple purpose is to present text. The text may include HTML.
-
-## Installation
-
-As one of Adapt's *[core components](https://github.com/adaptlearning/adapt_framework/wiki/Core-Plug-ins-in-the-Adapt-Learning-Framework#components),* **Text** is included with the [installation of the Adapt framework](https://github.com/adaptlearning/adapt_framework/wiki/Manual-installation-of-the-Adapt-framework#installation) and the [installation of the Adapt authoring tool](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-Adapt-Origin).
-
-* If **Text** has been uninstalled from the Adapt framework, it may be reinstalled.
-With the [Adapt CLI](https://github.com/adaptlearning/adapt-cli) installed, run the following from the command line:  
-`adapt install adapt-simple-table`
-
-    Alternatively, this component can also be installed by adding the following line of code to the *adapt.json* file:  
-    `"adapt-simple-table": "*"`  
-    Then running the command:  
-    `adapt install`  
-    (This second method will reinstall all plug-ins listed in *adapt.json*.)  
-
-* If **Text** has been uninstalled from the Adapt authoring tool, it may be reinstalled using the [Plug-in Manager](https://github.com/adaptlearning/adapt_authoring/wiki/Plugin-Manager).  
-<div float align=right><a href="#top">Back to Top</a></div>
- 
+**SimpleTable**'s simple purpose is to present text along with table. The text inside table may include HTML.
 
 ### Attributes
 
 [**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes).
 
-**_component** (string): This value must be: `text`.
+**_component** (string): This value must be: `simple-table`.
 
-**_classes** (string): CSS class name to be applied to **Text**’s containing `div`. The class must be predefined in one of the Less files. Separate multiple classes with a space.
+**_classes** (string): CSS class name to be applied to **SimpleTable**’s containing `div`. The class must be predefined in one of the Less files. Separate multiple classes with a space.
 
 **_layout** (string): This defines the horizontal position of the component in the block. Acceptable values are `full`, `left` or `right`.  
 
@@ -43,7 +25,14 @@ With the [Adapt CLI](https://github.com/adaptlearning/adapt-cli) installed, run 
 **instruction** (string): This optional text appears above the component. It is frequently used to
 guide the learner’s interaction with the component.
 
-**body** (string): Although optional, this text constitutes what is thought of as the primary *text* of the **Text** component. HTML is permitted.  
+**body** (string): Although optional, this text constitutes what is thought of as the primary *simple-table* of the **SimpleTable** component. HTML is permitted.
+
+**_items** (string): Specific for *SimpleTable* component. Add it for table.
+
+**_cells** (string): Table cells.
+
+**text** (string): Table cell text.
+
 <div float align=right><a href="#top">Back to Top</a></div>
 
 ## Limitations
@@ -54,7 +43,7 @@ No known limitations.
 ----------------------------
 **Version number:**  0.0.1 
 **Framework versions:** 2+  
-**Author / maintainer:** Kunj   
+**Author / maintainer:** Kunj kunjsharma@hotmail.com  
 **Accessibility support:** WAI AA   
 **RTL support:** yes
 **Cross-platform coverage:** Chrome, Chrome for Android, Firefox (ESR + latest version), Edge 12, IE 11, IE10, IE9, IE8, IE Mobile 11, Safari iOS 9+10, Safari OS X 9+10, Opera    
