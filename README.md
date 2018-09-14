@@ -7,6 +7,11 @@
 
 **SimpleTable**'s simple purpose is to present text along with table. The text inside table may include HTML.
 
+### Installation
+First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:-
+
+    adapt install simple-table
+    
 ### Attributes
 
 [**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes).
