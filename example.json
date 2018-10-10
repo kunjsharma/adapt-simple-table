@@ -11,19 +11,36 @@
     "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
     "_items": [
         {
-            "_cells": [{
-                "text": "Adapt allows you to combine text and graphic components to create rich and varied learning experiences."
+            "_header": [{
+                "text": "Text"
             },
             {
-                "text": "The narrative component lets you scroll through a series of images each with some accompanying text."
+                "text": "Graphics"
+            },
+            {
+                "text": "Table"
             }
         ]},
         {
             "_cells": [{
-                "text": "The text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics."
+                "text": "The text component can often be the best choice for imparting information..."
             },
             {
-                "text": "You can add interactivity to an image by using the hot graphic."
+                "text": "You can add interactivity to an image..."
+            },
+            {
+                "text": "The narrative component lets you scroll through..."
+            }
+        ]},
+        {
+            "_cells": [{
+                "text": "....particularly when used in conjunction with complementary graphics."
+            },
+            {
+                "text": "...by using the hot graphic."
+            },
+            {
+                "text": "...a series of images each with some accompanying text."
             }
         ]}
     ],
