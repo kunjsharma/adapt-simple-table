@@ -5,7 +5,7 @@
 
 <img src="sample/adapt-simple-table.png" alt="sample table component" align="right" width="50%">
 
-**SimpleTable**'s simple purpose is to present text along with table. The text inside table may include HTML.
+**SimpleTable**'s simple purpose is to present text along with table.
 
 ### Installation
 First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:-
