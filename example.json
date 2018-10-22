@@ -22,7 +22,7 @@
             }
         ]},
         {
-            "_cells": [{
+            "_cell": [{
                 "text": "The text component can often be the best choice for imparting information..."
             },
             {
@@ -33,7 +33,7 @@
             }
         ]},
         {
-            "_cells": [{
+            "_cell": [{
                 "text": "....particularly when used in conjunction with complementary graphics."
             },
             {
