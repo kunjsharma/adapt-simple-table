@@ -5,13 +5,13 @@
 		{{#if _header}}
 			<tr>
 			{{#each _header}}
-				<td class="simple-table-header">{{text}}</td>
+				<td class="simple-table-header">{{{text}}}</td>
 			{{/each}}
 			</tr>
 		{{else}}
 			<tr>
 			{{#each _cell}}
-				<td class="simple-table-cell">{{text}}</td>
+				<td class="simple-table-cell">{{{text}}}</td>
 			{{/each}}
 			</tr>
 		{{/if}}
