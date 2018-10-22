@@ -35,7 +35,7 @@ guide the learner’s interaction with the component.
 
 **_header** (string): Header cell.
 
-**_cells** (string): Table cells.
+**_cell** (string): Table cell(s).
 
 **text** (string): Table cell/header text.
 
@@ -43,7 +43,7 @@ guide the learner’s interaction with the component.
 
 ## Limitations
 
-No known limitations.   
+No known limitations. 
 
 
 ----------------------------
