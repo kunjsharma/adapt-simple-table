@@ -31,8 +31,6 @@ guide the learner’s interaction with the component.
 
 **body** (string): Although optional, this text constitutes what is thought of as the primary *simple-table* of the **SimpleTable** component. HTML is permitted.
 
-**_items** (string): Specific for *SimpleTable* component. Add it for table.
-
 **_header** (string): Header cell.
 
 **_cell** (string): Table cell(s).
