@@ -45,8 +45,8 @@ No known limitations.
 
 
 ----------------------------
-**Version number:**  0.0.1 
-**Framework versions:** 2+  
+**Version number:**  1.0.1 
+**Framework versions:** 3+  
 **Author / maintainer:** Kunj kunjsharma@hotmail.com  
 **Accessibility support:** WAI AA   
 **RTL support:** yes    
