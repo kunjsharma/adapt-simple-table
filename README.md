@@ -31,11 +31,11 @@ guide the learner’s interaction with the component.
 
 **body** (string): Although optional, this text constitutes what is thought of as the primary *simple-table* of the **SimpleTable** component. HTML is permitted.
 
-**_header** (string): Header cell.
+**_header**: Header cell.
 
-**_cell** (string): Table cell(s).
+**_cell**: Table cell(s).
 
-**text** (string): Table cell/header text.
+**text**: Table cell/header text.
 
 <div float align=right><a href="#top">Back to Top</a></div>
 
