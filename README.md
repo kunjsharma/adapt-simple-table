@@ -1,7 +1,7 @@
 # adapt-simple-table  
 
 
-**SimpleTable** is a *presentation component* and an extended text comopnent with capability to display text in a table. By adding some attributes in JSON, developer can create table without muddle themself using markup tags. 
+**SimpleTable** is a *presentation component* with capability to display text in a table. By adding some attributes, developers can create table without muddle themself using markup tags in JSON. 
 
 <img src="sample/adapt-simple-table.png" alt="sample table component" align="right" width="50%">
 
