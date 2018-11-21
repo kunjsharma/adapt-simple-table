@@ -1,20 +1,22 @@
 <div class="simple-table-inner component-inner" role="region" aria-label="{{_globals._components._simple-table.ariaRegion}}">
     {{> component this}}
-    <table class="simple-table-table">
-    {{#each _items}}
-		{{#if _header}}
-			<tr>
-			{{#each _header}}
-				<td class="simple-table-header">{{{text}}}</td>
-			{{/each}}
-			</tr>
-		{{else}}
-			<tr>
-			{{#each _cell}}
-				<td class="simple-table-cell">{{{text}}}</td>
-			{{/each}}
-			</tr>
-		{{/if}}
-    {{/each}}
-    </table>
+    {{#if _items}}
+	    <table class="simple-table-table">
+	    {{#each _items}}
+			{{#if _header}}
+				<tr>
+				{{#each _header}}
+					<td class="simple-table-header">{{{text}}}</td>
+				{{/each}}
+				</tr>
+			{{else}}
+				<tr>
+				{{#each _cell}}
+					<td class="simple-table-cell">{{{text}}}</td>
+				{{/each}}
+				</tr>
+			{{/if}}
+	    {{/each}}
+	    </table>
+	{{/if}}
 </div>
