@@ -14,14 +14,10 @@ Or, download the ZIP and extract into the src > components directory and run an 
 
 ### Attributes
 
-[**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes).
-
-**Simple table**
+[**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes). And, 
 
 **_header**: Header cell.
-
 **_cell**: Table cell(s).
-
 **text**: Table cell/header text.
 
 <div float align=right><a href="#top">Back to Top</a></div>
