@@ -1,7 +1,7 @@
 {
   "name": "adapt-simple-table",
   "version": "1.0.1",
-  "framework": "3.2.1",
+  "framework": "^3.2.1",
   "homepage": "https://github.com/kunjsharma/adapt-simple-table",
   "issues": "https://github.com/kunjsharma/adapt-simple-table",
   "displayName": "Table",
