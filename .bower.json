@@ -9,9 +9,15 @@
   "description": "A simple table component",
   "main": "/js/adapt-simple-table.js",
   "keywords": [
+    "adapt",
     "adapt-plugin",
+    "adapt plugin",
     "adapt-component",
-    "adapt-simple-table"
+    "adapt component",
+    "adapt-simple-table",
+    "adapt simple table",
+    "adapt simple",
+    "adapt table"
   ],
   "license": "GPLv3",
   "_release": "0.0.1",
