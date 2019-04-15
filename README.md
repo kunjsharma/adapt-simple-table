@@ -36,4 +36,4 @@ No known limitations.
 ----------------------------
 **Version number:**  1.0.1  
 **Framework versions:** 3+  
-**Author / maintainer:** Kunj kunjsharma@hotmail.com  
+**Author/maintainer:** Kunj kunjsharma@hotmail.com  
