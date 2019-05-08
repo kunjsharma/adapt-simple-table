@@ -27,7 +27,7 @@
     "commit": "dd2830cf3d90c8c3d94r5f1f536e533c2b8cb97c"
   },
   "_source": "git://github.com/kunjsharma/adapt-simple-table.git",
-  "_target": ">=2.0.0",
+  "_target": "*",
   "_originalSource": "adapt-simple-table",
   "_direct": true
 }
