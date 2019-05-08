@@ -30,8 +30,7 @@ https://kunjsharma.github.io/#/id/co-00
 
 ## Limitations
 
-No known limitations. 
-
+Supports equal columns in each row. 
 
 ----------------------------
 **Version number:**  2.0.0  
