@@ -1,13 +1,17 @@
 {
   "name": "adapt-simple-table",
   "version": "2.0.0",
-  "framework": "^3.2.1",
+  "framework": ">=3.2",
   "homepage": "https://github.com/kunjsharma/adapt-simple-table",
   "issues": "https://github.com/kunjsharma/adapt-simple-table",
-  "displayName" : "Table",
+  "repository": "git://github.com/kunjsharma/adapt-simple-table.git",
+  "displayName" : "Simple Table",
   "component" : "simple-table",
   "description": "A simple table component",
   "main": "/js/adapt-simple-table.js",
+  "authors": [
+       "Kunj B Sharma <kunjsharma@hotmail.com>"
+  ],
   "keywords": [
     "adapt",
     "adapt-plugin",
