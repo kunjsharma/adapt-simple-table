@@ -1,6 +1,6 @@
 {
   "name": "adapt-simple-table",
-  "framework": ">=3.2",
+  "framework": ">=5",
   "homepage": "https://github.com/kunjsharma/adapt-simple-table",
   "issues": "https://github.com/kunjsharma/adapt-simple-table",
   "repository": "git://github.com/kunjsharma/adapt-simple-table.git",
@@ -23,7 +23,7 @@
     "adapt table"
   ],
   "license": "GPLv3",
-  "_release": "2.0.0",
+  "_release": "3.0.0",
   "_resolution": {
     "type": "branch",
     "branch": "master",

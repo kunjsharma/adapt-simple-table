@@ -1,14 +1,22 @@
-.simple-table-component {
-	.simple-table-table {
-		border: 1px @primary-color solid;
-		.simple-table-header {
-			background-color: @primary-color;
-			color: @primary-color-inverted;
-			font-weight: bold;
+.simple-table {
+	&__table {
+		border: 1px @blue solid;
+		border-spacing: 0px;
+		border-collapse: collapse;
+	}
+	&__table-header {
+		background-color: @blue;
+		color: @font-color-inverted;
+		font-weight: bold;
+		border-right: 1px solid @font-color-inverted;
+		&:last-child {
+			border-right: 1px solid @blue;
 		}
-		.simple-table-cell {
-			border: 1px @primary-color solid;
-			padding: @item-margin;
-		}
+		padding: @item-margin;
+	}
+	&__table-cell {
+		border: 1px @blue solid;
+		padding: @item-margin;
+		vertical-align: top;
 	}
 }
