@@ -33,6 +33,6 @@ https://kunjsharma.github.io/#/id/co-00
 Supports equal columns in each row. 
 
 ----------------------------
-**Version number:**  2.0.0  
-**Framework versions:** 3+  
+**Version number:**  3.0.0  
+**Framework versions:** 5  
 **Author/maintainer:** Kunj kunjsharma@hotmail.com  
