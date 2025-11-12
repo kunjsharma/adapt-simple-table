@@ -30,7 +30,7 @@ https://kunjsharma.github.io/#/id/co-00
 
 ## Limitations
 
-Supports equal columns in each row. 
+Supports equal columns in each row. Developed to work with framework only. Please update the properties.schema for use with authoring tool.  
 
 ----------------------------
 **Version number:**  3.0.0  
